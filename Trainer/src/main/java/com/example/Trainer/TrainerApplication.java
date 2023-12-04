@@ -13,26 +13,6 @@ import io.swagger.v3.oas.annotations.info.License;
 
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@OpenAPIDefinition(
-		info = @Info(
-				title = "Department-Service",
-				description = "Department-service Doc",
-				version = "v1.0",
-				contact = @Contact(
-						name = "Surya",
-						email = "Surya@gmail.com"
-				),
-				license = @License(
-						name = "Apache 2.0",
-						url = "https://www.udemy.com/"
-				)
-		),
-		externalDocs =  @ExternalDocumentation(
-				description = "Department-service Doc",
-				url = "https://www.udemy.com/"
-		)
-)
 public class TrainerApplication {
 
 	public static void main(String[] args) {
